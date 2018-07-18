@@ -1,6 +1,6 @@
 {
   "name": "fittxt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modernized FitText.js",
   "source": "src/index.js",
   "main": "dist/fittxt.js",
@@ -24,7 +24,9 @@
     "standard": "^11.0.1"
   },
   "standard": {
-    "ignore": ["dist"],
+    "ignore": [
+      "dist"
+    ],
     "env": {
       "jest": true
     }
