@@ -1,0 +1,32 @@
+{
+  "name": "fittxt",
+  "version": "1.0.0",
+  "description": "Modernized FitText.js",
+  "source": "src/index.js",
+  "main": "dist/fittxt.js",
+  "module": "dist/fittxt.m.js",
+  "browser": "dist/fittxt.umd.js",
+  "repository": "https://github.com/tiaanduplessis/fittxt",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "test": "jest",
+    "lint": "standard --fix"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.4.1",
+    "microbundle": "^0.5.1",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "ignore": ["dist"],
+    "env": {
+      "jest": true
+    }
+  }
+}
